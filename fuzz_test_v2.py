@@ -1,0 +1,37 @@
+import subprocess
+import random
+import sys
+
+def run_test(n):
+    nums = random.sample(range(10000), n)
+    arg = " ".join(map(str, nums))
+    
+    # Run push_swap
+    ps = subprocess.Popen(["./push_swap"] + [str(x) for x in nums], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    stdout, stderr = ps.communicate()
+    
+    ops = stdout.decode().strip()
+    
+    # Run checker
+    checker = subprocess.Popen(["./checker_linux"] + [str(x) for x in nums], stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    c_out, c_err = checker.communicate(input=stdout)
+    
+    res = c_out.decode().strip()
+    if res != "OK":
+        print(f"FAIL with {n} items: {res}")
+        print(f"Args: {arg}")
+        return False
+    return True
+
+print("Running intensive small tests...")
+for n in range(6, 20):
+    for i in range(50):
+        if not run_test(n):
+            sys.exit(1)
+
+print("Running random tests...")
+for i in range(100):
+   if not run_test(random.randint(6, 100)):
+       sys.exit(1)
+
+print("All tests passed")
