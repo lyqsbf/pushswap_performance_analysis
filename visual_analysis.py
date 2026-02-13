@@ -111,6 +111,7 @@ def main():
     output_file = "performance_graph.png"
     plt.savefig(output_file)
     print(f"\nGraph saved to {output_file}")
+    print(f"To view the graph, run: code {output_file} (VS Code) or xdg-open {output_file} (Linux)")
     print("Optimization complete.")
 
 if __name__ == "__main__":

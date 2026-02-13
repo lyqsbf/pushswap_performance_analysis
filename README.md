@@ -1,6 +1,6 @@
 # Push_swap Performance Analysis
 
-> 🇪🇸 **Español**: Existe una versión en español de este documento disponible en [README_esp.md](README_esp.md).
+> 🇪🇸 **Español**: Existe una versión en español de este documento disponible en [README_es.md](README_es.md).
 
 This repository contains a set of Python scripts designed to test, analyze, and measure the performance of the **push_swap** project from 42.
 
@@ -63,7 +63,7 @@ Performs a basic and quick check.
 python3 fuzz_test.py
 ```
 
-### 3. 🌀 `fuzz_test_v2.py`
+### 4. 🌀 `fuzz_test_v2.py`
 Focuses on intensive testing of **small cases** and random cases.
 - Intensive tests: Sizes from 6 to 20 (50 tests per size).
 - Random tests: 100 tests with varied sizes (6-100).
@@ -72,7 +72,7 @@ Focuses on intensive testing of **small cases** and random cases.
 python3 fuzz_test_v2.py
 ```
 
-### 4. 📉 `fuzz_test_v3.py`
+### 5. 📉 `fuzz_test_v3.py`
 Tests **special cases** and extremes.
 - Reverse sorted lists (sizes 6 to 100).
 - "Almost sorted" lists (only 2 elements swapped).
@@ -107,3 +107,13 @@ The analysis script will give you output like this:
 ---
 
 Good luck with your evaluation! 🐬
+
+---
+## 🤝 Contributions (Reporting Issues)
+Contributions are highly welcome and are crucial for improving the quality of this test suite!
+If you encounter any issue, please **open an issue** in this repository.
+---
+### How to Contribute
+1.  **Report an Issue:** Open a new *Issues* tab on GitHub and describe the error you found, including the **exact test case** that is failing or missing.
+2.  **Submit a Pull Request (Optional):** If you have created a new test to fix the problem, you can directly submit a *Pull Request* for us to review and integrate.
+**Your collaboration ensures that this test suite is as robust and complete as possible for the entire community.**

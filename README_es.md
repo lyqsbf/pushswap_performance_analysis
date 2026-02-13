@@ -61,7 +61,7 @@ Realiza una comprobación básica y rápida.
 python3 fuzz_test.py
 ```
 
-### 3. 🌀 `fuzz_test_v2.py`
+### 4. 🌀 `fuzz_test_v2.py`
 Se enfoca en pruebas intensivas de **casos pequeños** y aleatorios.
 - Tests intensivos: Tamaños de 6 a 20 (50 pruebas por cada tamaño).
 - Tests aleatorios: 100 pruebas con tamaños variados (6-100).
@@ -70,7 +70,7 @@ Se enfoca en pruebas intensivas de **casos pequeños** y aleatorios.
 python3 fuzz_test_v2.py
 ```
 
-### 4. 📉 `fuzz_test_v3.py`
+### 5. 📉 `fuzz_test_v3.py`
 Prueba **casos especiales** y extremos.
 - Listas ordenadas inversamente (tamaños 6 a 100).
 - Listas "casi ordenadas" (solo 2 elementos intercambiados).
@@ -105,3 +105,13 @@ El script de análisis te dará una salida como esta:
 ---
 
 ¡Buena suerte con tu evaluación! 🐬
+
+---
+## 🤝 Contribuciones (Reportar Problemas)
+¡Las contribuciones son muy bienvenidas y son cruciales para mejorar la calidad de este conjunto de pruebas!
+Si encuentras algún problema, por favor **abre un issue** en este repositorio.
+---
+### Cómo Contribuir
+1.  **Reportar un Problema:** Abre una nueva pestaña de *Issues* en GitHub y describe el error que encontraste, incluyendo el **caso de prueba exacto** que está fallando o falta.
+2.  **Enviar un Pull Request (Opcional):** Si has creado una nueva prueba para solucionar el problema, puedes enviar directamente un *Pull Request* para que lo revisemos e integremos.
+**Tu colaboración asegura que este conjunto de pruebas sea lo más robusto y completo posible para toda la comunidad.**
