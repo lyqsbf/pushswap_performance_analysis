@@ -18,10 +18,12 @@ def run_test(n):
     c_out, c_err = checker.communicate(input=stdout)
     
     res = c_out.decode().strip()
+    movm = len(ops.split('\n')) if ops else 0
     if res != "OK":
         print(f"FAIL with {n} items: {res}")
         print(f"Args: {arg}")
         return False
+    print(f"OK: {n} numbers ordered in {movm} steps.")
     return True
 
 print("Running intensive small tests...")
