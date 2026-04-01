@@ -117,3 +117,19 @@ If you encounter any issue, please **open an issue** in this repository.
 1.  **Report an Issue:** Open a new *Issues* tab on GitHub and describe the error you found, including the **exact test case** that is failing or missing.
 2.  **Submit a Pull Request (Optional):** If you have created a new test to fix the problem, you can directly submit a *Pull Request* for us to review and integrate.
 **Your collaboration ensures that this test suite is as robust and complete as possible for the entire community.**
+
+---
+
+## 📜 License
+
+This project is licensed under a **non-commercial educational use license**. 
+
+**Key Points:**
+- ✅ Educational use, study, and personal modifications are allowed
+- ✅ You can fork this repository for learning purposes
+- ❌ Commercial use or monetization is prohibited
+- ❌ Redistribution as part of a commercial product is not allowed
+
+For full details, please see the [LICENSE](LICENSE) file in the repository root.
+
+If you need permission for commercial use, please contact the author at: **05yaqi.liu@gmail.com**

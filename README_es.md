@@ -115,3 +115,19 @@ Si encuentras algún problema, por favor **abre un issue** en este repositorio.
 1.  **Reportar un Problema:** Abre una nueva pestaña de *Issues* en GitHub y describe el error que encontraste, incluyendo el **caso de prueba exacto** que está fallando o falta.
 2.  **Enviar un Pull Request (Opcional):** Si has creado una nueva prueba para solucionar el problema, puedes enviar directamente un *Pull Request* para que lo revisemos e integremos.
 **Tu colaboración asegura que este conjunto de pruebas sea lo más robusto y completo posible para toda la comunidad.**
+
+---
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo una **licencia de uso educativo no comercial**.
+
+**Puntos clave:**
+- ✅ Se permite el uso educativo, académico y modificaciones personales
+- ✅ Puedes hacer fork de este repositorio para propósitos de aprendizaje
+- ❌ El uso comercial o monetización está prohibido
+- ❌ No se permite la redistribución como parte de un producto comercial
+
+Para más detalles, consulta el archivo [LICENSE](LICENSE) en la raíz del repositorio.
+
+Si necesitas permiso para uso comercial, contacta al autor en: **05yaqi.liu@gmail.com**
